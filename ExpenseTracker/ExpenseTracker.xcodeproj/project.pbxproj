@@ -61,9 +61,9 @@
 			children = (
 				52F4CDE6288DBF3200CE507D /* ExpenseTrackerApp.swift */,
 				52F4CDE8288DBF3200CE507D /* ContentView.swift */,
-				521DF983288EEA590081F593 /* Extensions.swift */,
-				521DF985288EEC940081F593 /* TransactionModel.swift */,
 				521DF98B288EF05C0081F593 /* TransactionRow.swift */,
+				521DF985288EEC940081F593 /* TransactionModel.swift */,
+				521DF983288EEA590081F593 /* Extensions.swift */,
 				52F4CDEA288DBF3300CE507D /* Assets.xcassets */,
 				52F4CDEC288DBF3300CE507D /* Preview Content */,
 			);
