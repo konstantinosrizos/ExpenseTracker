@@ -12,6 +12,8 @@
 		521DF988288EEE120081F593 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521DF987288EEE120081F593 /* PreviewData.swift */; };
 		521DF98C288EF05C0081F593 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521DF98B288EF05C0081F593 /* TransactionRow.swift */; };
 		523E07A82897FA4A0042201A /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E07A72897FA4A0042201A /* RecentTransactionList.swift */; };
+		52B66B2C289C1BCD0071A321 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B66B2B289C1BCD0071A321 /* TransactionList.swift */; };
+		52B66B2F289C228F0071A321 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 52B66B2E289C228F0071A321 /* Collections */; };
 		52C148B82891A388009B4CB5 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C148B72891A388009B4CB5 /* TransactionListViewModel.swift */; };
 		52F4CDE7288DBF3200CE507D /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4CDE6288DBF3200CE507D /* ExpenseTrackerApp.swift */; };
 		52F4CDE9288DBF3200CE507D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4CDE8288DBF3200CE507D /* ContentView.swift */; };
@@ -27,6 +29,7 @@
 		521DF987288EEE120081F593 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		521DF98B288EF05C0081F593 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		523E07A72897FA4A0042201A /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		52B66B2B289C1BCD0071A321 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		52C148B72891A388009B4CB5 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		52F4CDE3288DBF3200CE507D /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F4CDE6288DBF3200CE507D /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B66B2F289C228F0071A321 /* Collections in Frameworks */,
 				F8E50F95FF07253A56554F1F /* Pods_ExpenseTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +86,7 @@
 				52F4CDE6288DBF3200CE507D /* ExpenseTrackerApp.swift */,
 				52F4CDE8288DBF3200CE507D /* ContentView.swift */,
 				523E07A72897FA4A0042201A /* RecentTransactionList.swift */,
+				52B66B2B289C1BCD0071A321 /* TransactionList.swift */,
 				521DF98B288EF05C0081F593 /* TransactionRow.swift */,
 				52C148B72891A388009B4CB5 /* TransactionListViewModel.swift */,
 				521DF985288EEC940081F593 /* TransactionModel.swift */,
@@ -127,6 +132,9 @@
 			dependencies = (
 			);
 			name = ExpenseTracker;
+			packageProductDependencies = (
+				52B66B2E289C228F0071A321 /* Collections */,
+			);
 			productName = ExpenseTracker;
 			productReference = 52F4CDE3288DBF3200CE507D /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -155,6 +163,9 @@
 				Base,
 			);
 			mainGroup = 52F4CDDA288DBF3200CE507D;
+			packageReferences = (
+				52B66B2D289C228F0071A321 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 52F4CDE4288DBF3200CE507D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521DF988288EEE120081F593 /* PreviewData.swift in Sources */,
+				52B66B2C289C1BCD0071A321 /* TransactionList.swift in Sources */,
 				523E07A82897FA4A0042201A /* RecentTransactionList.swift in Sources */,
 				521DF986288EEC940081F593 /* TransactionModel.swift in Sources */,
 				52F4CDE9288DBF3200CE507D /* ContentView.swift in Sources */,
@@ -431,6 +443,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52B66B2D289C228F0071A321 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52B66B2E289C228F0071A321 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B66B2D289C228F0071A321 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52F4CDDB288DBF3200CE507D /* Project object */;
 }

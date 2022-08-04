@@ -19,7 +19,7 @@ struct RecentTransactionList: View {
 				Spacer()
 				
 				NavigationLink {
-					
+					TransactionList()
 				} label: {
 					HStack(spacing: 4) {
 						Text("See All")
@@ -38,7 +38,7 @@ struct RecentTransactionList: View {
 			}
 		}
 		.padding()
-		.background(Color.background)
+		.background(Color.systemBackground)
 		.clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
 		.shadow(color: Color.primary.opacity(0.2), radius: 10, x: 0, y: 5)
     }
