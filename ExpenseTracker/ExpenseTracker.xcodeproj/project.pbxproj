@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5202D1F6289EE42F0046BE06 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 5202D1F5289EE42F0046BE06 /* SwiftUICharts */; };
 		521DF984288EEA590081F593 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521DF983288EEA590081F593 /* Extensions.swift */; };
 		521DF986288EEC940081F593 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521DF985288EEC940081F593 /* TransactionModel.swift */; };
 		521DF988288EEE120081F593 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521DF987288EEE120081F593 /* PreviewData.swift */; };
@@ -45,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5202D1F6289EE42F0046BE06 /* SwiftUICharts in Frameworks */,
 				52B66B2F289C228F0071A321 /* Collections in Frameworks */,
 				F8E50F95FF07253A56554F1F /* Pods_ExpenseTracker.framework in Frameworks */,
 			);
@@ -134,6 +136,7 @@
 			name = ExpenseTracker;
 			packageProductDependencies = (
 				52B66B2E289C228F0071A321 /* Collections */,
+				5202D1F5289EE42F0046BE06 /* SwiftUICharts */,
 			);
 			productName = ExpenseTracker;
 			productReference = 52F4CDE3288DBF3200CE507D /* ExpenseTracker.app */;
@@ -165,6 +168,7 @@
 			mainGroup = 52F4CDDA288DBF3200CE507D;
 			packageReferences = (
 				52B66B2D289C228F0071A321 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				5202D1F4289EE42F0046BE06 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 52F4CDE4288DBF3200CE507D /* Products */;
 			projectDirPath = "";
@@ -445,6 +449,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5202D1F4289EE42F0046BE06 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
 		52B66B2D289C228F0071A321 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-collections.git";
@@ -456,6 +468,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5202D1F5289EE42F0046BE06 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5202D1F4289EE42F0046BE06 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
 		52B66B2E289C228F0071A321 /* Collections */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 52B66B2D289C228F0071A321 /* XCRemoteSwiftPackageReference "swift-collections" */;
