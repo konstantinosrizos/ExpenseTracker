@@ -38,10 +38,12 @@
     <td><img src="Assets/HomeScreen.png" width=270 height=480></td>
     <td><img src="Assets/TransactionsScreen.png" width=270 height=480></td>
     <td>
-		<video width="270" height="480" controls>
-			<source src="Assets/Video/DemoVideo.mp4" type="DemoVideo/mp4">
+<!--		<video width="270" height="480" controls>-->
+			<video src="Assets/Video/DemoVideo.mp4" width=270px  height=480px controls>
+			</video>
+<!--			<source src="Assets/Video/DemoVideo.mp4" type="DemoVideo/mp4">-->
 <!--			<source src="Assets/Video/DemoVideo.mov" type="DemoVideo/mov">-->
-		</video>
+<!--		</video>-->
     </td>
   </tr>
 </table>
