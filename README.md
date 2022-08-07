@@ -40,7 +40,6 @@
     <td>
 		<video width="270" height="480" controls>
 			<source src="Assets/Video/DemoVideo.mp4" type="video/mp4">
-			<source src="Assets/Video/DemoVideo.mov" type="video/mov">
 		</video>
     </td>
   </tr>
