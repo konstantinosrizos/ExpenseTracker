@@ -38,7 +38,9 @@
     <td><img src="Assets/TransactionsScreen.png" width=270 height=480></td>
   </tr>
 </table>
-		
+
+https://user-images.githubusercontent.com/34775704/183285650-a4c19152-7b01-4643-9b3f-e7570f277fce.mp4
+
 ---
 
 Source of the project: [Design Code](https://www.youtube.com/watch?v=Bu6fAlltatA)
