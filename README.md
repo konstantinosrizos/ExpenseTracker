@@ -39,7 +39,11 @@
   </tr>
 </table>
 
-![Preview](Assets/DemoVideo.gif)
+<video width="270" height="480" controls>
+  <source src="Assets/Video/DemoVideo.mp4" type="DemoVideo/mp4">
+    <source src="Assets/Video/DemoVideo.mov" type="DemoVideo/mov">
+</video>
+
 ---
 
 Source of the project: [Design Code](https://www.youtube.com/watch?v=Bu6fAlltatA)
