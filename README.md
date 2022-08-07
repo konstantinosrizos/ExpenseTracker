@@ -31,7 +31,7 @@
 <table>
   <tr>
     <td>Home Screen</td>
-     <td>Transaction Screen</td>
+     <td>Transactions Screen</td>
   </tr>
   <tr>
     <td><img src="Assets/HomeScreen.png" width=270 height=480></td>
@@ -39,6 +39,7 @@
   </tr>
 </table>
 
+![Preview](Assets/DemoVideo.mov)
 ---
 
 Source of the project: [Design Code](https://www.youtube.com/watch?v=Bu6fAlltatA)
