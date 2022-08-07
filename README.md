@@ -18,12 +18,26 @@
 - `ColorGradient`
 - `ToolbarItem`
 - `RoundedRectangle`
-- Extensions methods
+- Extensions
 - Dark Mode
 
 #### Dependecies used:
 - `SwiftUIFontIcon`
 - `SwiftUICharts`
+
+---
+
+#### App Demo.
+<table>
+  <tr>
+    <td>Home Screen</td>
+     <td>Transaction Screen</td>
+  </tr>
+  <tr>
+    <td><img src="Assets/HomeScreen.png" width=270 height=480></td>
+    <td><img src="Assets/TransactionsScreen.png" width=270 height=480></td>
+  </tr>
+</table>
 
 ---
 
