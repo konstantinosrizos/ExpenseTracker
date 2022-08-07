@@ -36,13 +36,14 @@
   <tr>
     <td><img src="Assets/HomeScreen.png" width=270 height=480></td>
     <td><img src="Assets/TransactionsScreen.png" width=270 height=480></td>
+    <td>
+		<video width="270" height="480" controls>
+			<source src="Assets/Video/DemoVideo.mp4" type="DemoVideo/mp4">
+			<source src="Assets/Video/DemoVideo.mov" type="DemoVideo/mov">
+		</video>
+    </td>
   </tr>
 </table>
-
-<video width="270" height="480" controls>
-  <source src="Assets/Video/DemoVideo.mp4" type="DemoVideo/mp4">
-    <source src="Assets/Video/DemoVideo.mov" type="DemoVideo/mov">
-</video>
 
 ---
 
