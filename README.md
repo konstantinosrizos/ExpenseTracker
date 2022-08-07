@@ -32,21 +32,18 @@
   <tr>
     <td>Home Screen</td>
 	<td>Transactions Screen</td>
-	<td>Video</td>
   </tr>
   <tr>
     <td><img src="Assets/HomeScreen.png" width=270 height=480></td>
     <td><img src="Assets/TransactionsScreen.png" width=270 height=480></td>
-    <td>
-		<video width="270" height="480" controls>
-			<source src="Assets/Video/DemoVideo.mp4" type="video/mp4">
-			<source src="Assets/Video/DemoVideo.mov" type="video/mov">
-			Your browser does not support the video tag.
-		</video>
-    </td>
   </tr>
 </table>
-
+<video width="270" height="480" controls>
+	<source src="Assets/Video/DemoVideo.mp4" type="video/mp4">
+	<source src="Assets/Video/DemoVideo.mov" type="video/mov">
+	Your browser does not support the video tag.
+</video>
+		
 ---
 
 Source of the project: [Design Code](https://www.youtube.com/watch?v=Bu6fAlltatA)
