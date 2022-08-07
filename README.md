@@ -37,12 +37,12 @@
     <td><img src="Assets/HomeScreen.png" width=270 height=480></td>
     <td><img src="Assets/TransactionsScreen.png" width=270 height=480></td>
   </tr>
-</table>
-<video width="270" height="480" controls>
+  <video width="270" height="480" controls>
 	<source src="Assets/Video/DemoVideo.mp4" type="video/mp4">
 	<source src="Assets/Video/DemoVideo.mov" type="video/mov">
 	Your browser does not support the video tag.
-</video>
+  </video>
+</table>
 		
 ---
 
