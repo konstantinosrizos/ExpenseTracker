@@ -39,7 +39,7 @@
   </tr>
 </table>
 
-![Preview](Assets/DemoVideo.mov)
+![Preview](Assets/DemoVideo.gif)
 ---
 
 Source of the project: [Design Code](https://www.youtube.com/watch?v=Bu6fAlltatA)
