@@ -31,7 +31,8 @@
 <table>
   <tr>
     <td>Home Screen</td>
-     <td>Transactions Screen</td>
+	<td>Transactions Screen</td>
+	<td>Video</td>
   </tr>
   <tr>
     <td><img src="Assets/HomeScreen.png" width=270 height=480></td>
